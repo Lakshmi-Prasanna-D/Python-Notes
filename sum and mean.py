@@ -1,0 +1,5 @@
+n=int(input("enter n:"))
+l=list(map(int,input(f"enter {n} elements:").split()))
+s=sum(l)
+print("sum is",s)
+print("arithmetic mean is",s/n)
